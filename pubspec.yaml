@@ -1,0 +1,64 @@
+name: ohmie_customer
+description: "Ohmie Customer App - Service Booking"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  get: ^4.6.6
+
+  # HTTP Client
+  dio: ^5.7.0
+
+  # Local Storage
+  get_storage: ^2.1.1
+  flutter_secure_storage: ^10.0.0
+
+  # UI
+  flutter_screenutil: ^5.9.3
+  cached_network_image: ^3.4.1
+  shimmer: ^3.0.0
+  flutter_svg: ^2.0.10+1
+  lottie: ^3.1.2
+
+  # Location
+  geolocator: ^13.0.1
+  geocoding: ^3.0.0
+
+  # Maps
+  google_maps_flutter: ^2.9.0
+
+  # Socket
+  socket_io_client: ^2.0.3+1
+
+  # Image picker
+  image_picker: ^1.1.2
+
+  # URL launcher (for calls)
+  url_launcher: ^6.3.1
+
+  # Permission handler
+  permission_handler: ^11.3.1
+
+  # Intl
+  intl: ^0.19.0
+
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/lottie/
